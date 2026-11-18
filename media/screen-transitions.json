@@ -1,6 +1,17 @@
 {
   "app": "busybar-signal-box",
-  "sha256": "4cac3e040d5e043460f661b79eaada37c0d0cc36f4b5c2bcf7453eeb57414d87",
+  "sha256": "90870503546c9dc514ca40912fde041893ef630db4f8fa617ed4c13abba93e52",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.signalbox",
+    "sha256": "90870503546c9dc514ca40912fde041893ef630db4f8fa617ed4c13abba93e52",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 99.9,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
