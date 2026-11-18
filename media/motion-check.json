@@ -14,5 +14,25 @@
   "rendered": [
     "media/front.png",
     "media/back.png"
-  ]
+  ],
+  "sha256": "d8c3bf4c2a1fc90169b7ede0a5aa2df5e3e227e19591d124dd09407f6b30c64b",
+  "display_test": {
+    "firmware": "1.3.1",
+    "input": "On-device controls",
+    "keys": [
+      [
+        "up",
+        "ok"
+      ],
+      [
+        "start"
+      ]
+    ],
+    "frames": 128,
+    "distinct_by_flow": [
+      13,
+      8
+    ],
+    "exit": "App io.btype.signalbox exited: finished; heap peak 90.1 of 128 KiB"
+  }
 }
