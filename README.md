@@ -2,12 +2,38 @@
 
 Route three coloured trains through eight switchyards and beat your fewest-flips record.
 
-Match the three incoming trains to the colours at the right edge. The back labels them A/B/C. Turn to select a pair of points, click to switch straight/crossed, and press Start to dispatch. Hold Start to reset the yard. Click after a win to advance. Personal bests and the current yard survive restart.
+Three trains leave together. Before dispatch, trace each colour through the points to the matching platform. The rear panel labels the target order A/B/C, which also gives you a way to check the puzzle when the colours are hard to distinguish.
 
-## Run locally
+## Change the route
 
-From this folder, run `~/.busy-emulator/bin/busy-emulator dev --once` with BUSY Bar Emulator open. Back exits.
+1. Read the incoming trains on the left and the destination colours on the right.
+2. Turn the wheel to move the selection between pairs of points. The highlighted pair is the one the click will change.
+3. Click the wheel to switch that pair between straight and crossed. Trace the other two paths again before you send the trains.
 
-![BUSY Bar front display](screenshots/front-1.png)
+![The selected pair of points changes from straight tracks to a crossing](media/guide/switch-the-points.gif)
 
-[Watch the controls on firmware](media/controls.mp4)
+## Dispatch and check the platforms
+
+1. Press **Start** after setting the points. Watch the three train markers travel across the front together.
+2. Check the arrival order against the target. If it is wrong, change the route and try another dispatch. Hold **Start** to reset the yard.
+3. After a successful dispatch, click to advance. There are eight yards, and the fewest-flips record gives you a reason to replay one.
+
+![Three coloured trains travel across the switched yard toward the platforms](media/guide/dispatch-the-trains.gif)
+
+## Keeping a record
+
+Signal Box saves the current yard and personal bests on the device. A route that matches all three destinations completes the puzzle even if you can solve it later with fewer flips. All eight yards were solved in the emulator, including a three-flip result on the final yard.
+
+## Run in the emulator
+
+Open BUSY Bar Emulator. From this repository, run:
+
+```sh
+~/.busy-emulator/bin/busy-emulator dev --once
+```
+
+Press **Back** to exit.
+
+The GIFs are excerpts from the emulator recording. The front display is enlarged 9× and the end frames pause for reading.
+
+[Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
