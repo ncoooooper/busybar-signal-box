@@ -2,5 +2,5 @@
   "category": "games",
   "short_description": "Route three coloured trains through eight switchyards and beat your fewest-flips record.",
   "description": "Route three coloured trains through eight switchyards and beat your fewest-flips record. Match the three incoming trains to the colours at the right edge. The back labels them A/B/C. Turn to select a pair of points, click to switch straight/crossed, and press Start to dispatch. Hold Start to reset the yard. Click after a win to advance. Personal bests and the current yard survive restart.",
-  "changelog": "First public version."
+  "changelog": "New screen transitions and high-contrast LED previews."
 }

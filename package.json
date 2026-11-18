@@ -1,7 +1,7 @@
 {
   "name": "busybar-signal-box",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Route three coloured trains through eight switchyards and beat your fewest-flips record.",
   "author": "ncoooooper",
   "type": "module",

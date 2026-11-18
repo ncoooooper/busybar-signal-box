@@ -1,0 +1,47 @@
+{
+  "app": "busybar-signal-box",
+  "sha256": "4cac3e040d5e043460f661b79eaada37c0d0cc36f4b5c2bcf7453eeb57414d87",
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "classic",
+      "guides": [
+        "switch-the-points",
+        "dispatch-the-trains"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "up",
+          "ok"
+        ],
+        [
+          "start"
+        ],
+        [
+          "down",
+          "up",
+          "ok"
+        ]
+      ],
+      "distinct_frames": [
+        12,
+        14,
+        41
+      ],
+      "rear_frames": 20,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}

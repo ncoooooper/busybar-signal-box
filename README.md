@@ -4,6 +4,20 @@ Route three coloured trains through eight switchyards and beat your fewest-flips
 
 Three trains leave together. Before dispatch, trace each colour through the points to the matching platform. The rear panel labels the target order A/B/C, which also gives you a way to check the puzzle when the colours are hard to distinguish.
 
+## Screen transitions
+
+Follow the switch across the track diagram, then watch the train take the selected route.
+
+![Signal Box front display. Follow the switch across the track diagram, then watch the train take the selected route.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Signal Box rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Change the route
 
 1. Read the incoming trains on the left and the destination colours on the right.
@@ -34,6 +48,6 @@ Open BUSY Bar Emulator. From this repository, run:
 
 Press **Back** to exit.
 
-The GIFs are excerpts from the emulator recording. The front display is enlarged 9× and the end frames pause for reading.
+The GIFs are excerpts from the emulator recording. Each LED occupies a 16 × 16 cell with a black border. The last frame pauses for reading.
 
 [Full recording](media/controls.mp4) · [Rear display](screenshots/back-1.png) · [Firmware test](EMULATOR-QA.md) · [MIT license](LICENSE)
